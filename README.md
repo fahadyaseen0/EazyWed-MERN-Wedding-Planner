@@ -71,9 +71,7 @@ MongoDB: Locally installed or a cloud instance like MongoDB Atlas.
 Git: For cloning the repository.
 
 Cloning the Repository
-Clone the EazyWed repository from GitHub:
-git clone https://github.com/web-codings123/EazyWed.git
-cd EazyWed
+
 
 Backend Setup
 
@@ -100,7 +98,6 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 
 Start the backend server:npm start
 
-The backend server will run on http://localhost:5000 (or the port specified in .env).
 
 Frontend Setup
 
@@ -112,14 +109,14 @@ Install frontend dependencies:npm install
 
 Set up environment variables:
 Create a .env file in the eazywed directory.
-Add the following variable:VITE_API_URL=http://localhost:5000
+
 
 
 
 
 Start the frontend development server:npm run dev
 
-The frontend will run on http://localhost:5173 (or the port assigned by Vite).
+
 
 Importing the Project into Your IDE
 
@@ -149,7 +146,7 @@ From the root EazyWed directory, run:concurrently "cd backend && npm start" "cd 
 
 Usage
 
-Open your browser and navigate to http://localhost:5173 to access the EazyWed frontend.
+
 Register as a user or vendor to explore features like booking vendors, creating digital invitations, or managing budgets.
 Admin features are accessible via the admin dashboard (requires admin credentials).
 Use the AI-customized chatbot (available on the platform) for assistance with navigation, vendor selection, or general queries.
@@ -157,7 +154,7 @@ Use the AI-customized chatbot (available on the platform) for assistance with na
 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository:git fork https://github.com/web-codings123/EazyWed.git
+
 
 
 Create a new branch:git checkout -b feature/your-feature-name
@@ -169,8 +166,3 @@ Make your changes and commit them:git commit -m "Add your feature description"
 Push to your branch:git push origin feature/your-feature-name
 
 
-Open a pull request on the GitHub repository.
-
-If you encounter issues or have suggestions, please open an issue on the GitHub repository.
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
